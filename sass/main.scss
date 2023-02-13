@@ -1,0 +1,41 @@
+// !Utils styles
+
+@import "./utils/variables";
+
+@import "./utils/visually-hidden";
+
+// !Base styles
+
+@import "./base/reset";
+
+@import "./base/common";
+
+// !Components styles
+
+
+
+@import "./components/header";
+
+@import "./components/logo";
+
+@import "./components/nav";
+
+@import "./components/hero";
+
+@import "./components/modal";
+
+@import "./components/features";
+
+@import "./components/directions";
+
+@import "./components/team";
+
+@import "./components/socials";
+
+@import "./components/clients";
+
+@import "./components/footer";
+
+@import "./components/portfolio";
+
+

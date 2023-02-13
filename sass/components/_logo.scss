@@ -1,0 +1,21 @@
+.logo {
+    font-family: var(--font-logo);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color: var(--accent);
+
+
+&__part--header {
+    color: var(--secondary-text-color);
+}
+
+&__part--footer {
+    color: var(--primary-bg-color);
+}
+}
+
+.address__logo {
+    margin-bottom: 20px;
+    padding: 0;
+}

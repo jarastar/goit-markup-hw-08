@@ -1,0 +1,133 @@
+.footer__section {
+    min-width: 1600px;
+    margin: 0 auto;
+    background-color: var(--footer-bg-color);
+}
+
+.footer__container {
+    display: flex;
+    align-items: baseline;
+    width: 1200px;
+    padding-bottom: 60px;
+}
+
+.address {
+    display: flex;
+    flex-direction: column;
+}
+
+.address__location {
+    color: var(--primary-bg-color);
+    font-style: normal;
+    line-height: 1.71;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+            color: var(--accent);}
+}
+
+.address__contact {
+    color: var(--footer-contacts-color);
+    font-style: normal;
+    line-height: 1.71;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+&:hover,
+&:focus {
+    color: var(--accent);}
+}
+
+.address__item:not(:last-child) {
+    margin-bottom: 9px;
+    padding: 0;}
+
+.join {
+    display: flex;
+    flex-direction: column;
+    margin-left: 70px;
+    padding: 0;
+
+    &__title {
+    color: var(--primary-bg-color);
+    font-weight: 700;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom: 20px;}
+    }
+
+.subscribe {
+    display: flex;
+    flex-direction: column;
+    margin-top: 72px;
+    margin-left: 93px;
+
+    &__title {
+    color: var(--primary-bg-color);
+    text-decoration: none;
+    text-align: left;
+    margin-bottom: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;}
+
+    &__form {
+    display: inline-flex;
+    align-items: center;}
+}
+
+.subscribe__input {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    font-size: 16px;
+    line-height: 1.25;
+    color: rgba(255, 255, 255, 0.6);
+    width: 358px;
+    height: 50px;
+    background: #2f303a;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    padding-left: 16px;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+    border-color: var(--accent);}
+}
+
+.subscribe__btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 12px;
+    width: 200px;
+    height: 50px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    color: var(--primary-bg-color);
+    background-color: var(--accent);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: 0;
+    outline: transparent;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+    background-color: var(--button-active-bg-color);}
+}
+
+.subscribe__icon {
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+    fill: var(--primary-bg-color);
+}
