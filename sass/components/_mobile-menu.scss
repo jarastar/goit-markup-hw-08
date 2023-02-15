@@ -1,4 +1,4 @@
-.header__menu-btn {
+.menu__header-btn {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,7 +17,6 @@
         display: none;
     }
 }
-
 
 .menu-btn {
     position: absolute;
@@ -64,6 +63,7 @@
 .mobile-menu {
     padding: 0;
     margin-top: 0;
+    // margin-bottom: auto;
     list-style: none;
 }
 
@@ -126,4 +126,7 @@
     font-size: 18px;
     line-height: calc(22 / 18);
     letter-spacing: 0.02em;
-    color: var(--accent);}
+    color: var(--accent);
+
+
+}

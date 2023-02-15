@@ -303,7 +303,7 @@ body {
   border-radius: 2px;
 }
 
-.header__menu-btn {
+.menu__header-btn {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -323,7 +323,7 @@ body {
   margin-left: auto;
 }
 @media screen and (min-width: 768px) {
-  .header__menu-btn {
+  .menu__header-btn {
     display: none;
   }
 }
