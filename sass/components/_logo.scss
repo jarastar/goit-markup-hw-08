@@ -1,18 +1,36 @@
 .logo {
-    font-family: var(--font-logo);
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    color: var(--accent);
-
+font-family: var(--font-logo);
+font-weight: 700;
+font-size: 24px;
+line-height: 1.17;
+color: var(--accent);
+    
+        @media screen and (min-width: 1200px) {
+            font-size: 26px;
+            line-height: 1.19;}
 
 &__part--header {
-    color: var(--secondary-text-color);
-}
+    color: var(--secondary-text-color); }
 
 &__part--footer {
-    color: var(--primary-bg-color);
+    color: var(--primary-bg-color); }
 }
+
+.header__logo {
+display: block;
+padding-top: 16px;
+padding-bottom: 16px;
+margin-right: auto;
+
+    @media screen and (min-width: 768px) {
+        padding-top: 26px;
+        padding-bottom: 25px;
+        margin-right: auto;}
+
+    @media screen and (min-width: 1200px) {
+        padding-top: 24px;
+        padding-bottom: 24px;
+        margin-right: 93px; }
 }
 
 .address__logo {
