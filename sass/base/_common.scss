@@ -7,11 +7,6 @@ body {
     cursor: default;
 }
 
-.container {
-    width: 1200px;
-    margin: 0 auto;
-    padding: 0 15px;
-}
 
 .section {
     padding: 94px 0;
@@ -20,8 +15,12 @@ body {
 .section__title {
     color: var(--title-text-color);
     font-weight: 700;
-    font-size: 36px;
+    font-size: 28px;
     line-height: 1.17;
     text-align: center;
     margin-bottom: 50px;
+
+          @media screen and (min-width: 1200px) {
+            font-size: 36px;
+        }
 }
