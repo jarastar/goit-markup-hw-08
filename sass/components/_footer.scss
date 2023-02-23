@@ -20,8 +20,9 @@
         }
     
         @media screen and (min-width: 1200px) {
-            display: inline-flex;
+            // display: flex;
             align-items: baseline;
+            justify-content: start;
         }
    
 }
@@ -82,6 +83,7 @@
     // margin-left: 70px;
     // padding: 0;
     @media screen and (min-width: 1200px) {
+        margin-right: 93px;
             align-items: start;}
 }
 

@@ -15,6 +15,7 @@
     }
 
 .team__unit {
+    
     background-color: var(--primary-bg-color);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
         0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -61,3 +62,21 @@
     text-align: center;
     margin-bottom: 16px;
 }
+
+// .team__pic {
+    
+//         	width: 270px;
+        	
+    
+//         	@media screen and (min-width: 767.98px) {
+//         		width: 354px;
+//         		height: 374px;
+//         	}
+    
+//         	@media screen and (min-width: 1199.98px) {
+//         		width: 270px;
+//         		height: 260px;
+//         	}
+//         }
+
+
