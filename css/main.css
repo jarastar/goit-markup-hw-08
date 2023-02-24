@@ -1714,6 +1714,6 @@ body {
 
 .projects__link:hover .projects__card-text,
 .projects__link:focus .projects__card-text {
-  -webkit-transform: translateY(10%);
-          transform: translateY(10%);
+  -webkit-transform: translateY(0%);
+          transform: translateY(0%);
 }/*# sourceMappingURL=main.css.map */
